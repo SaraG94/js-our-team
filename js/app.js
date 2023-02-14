@@ -28,7 +28,9 @@ const teamMembers = [
     {  fullName : 'Barbara Ramos',
         businessRole : 'Graphic Designer',
         pictureProfile : 'barbara-ramos-graphic-designer.jpg'
-    },
-]
+    }
+];
+
+console.log(teamMembers);
 //Stampare su console, per ogni membro del team: nome, ruolo e la stringa della foto (ciclo for in);
 //Stampare le stesse informazioni su DOM sotto forma di stringhe
