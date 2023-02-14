@@ -32,16 +32,22 @@ const teamMembers = [
 ];
 
 console.log(teamMembers);
-
-for (let i = 0; i < teamMembers.length; i++){
-    let member = teamMembers[i];
-    console.log(member);
-
-    let fullName = member.fullName
-    let businessRole = member.businessRole
-    let pictureProfile = member.pictureProfile
-
-    console.log(fullName,businessRole,pictureProfile);
-}
 //Stampare su console, per ogni membro del team: nome, ruolo e la stringa della foto (ciclo for in);
+
+//for (let i = 0; i < teamMembers.length; i++){
+//    let member = teamMembers[i];
+//    console.log(member);
+//
+//    let fullName = member.fullName
+//    let businessRole = member.businessRole
+//    let pictureProfile = member.pictureProfile
+//
+//    console.log(fullName,businessRole,pictureProfile);
+//}
+
+
+for (let key in teamMembers){
+    console.log(teamMembers[key]);
+    console.log(key[fullName]);
+}
 //Stampare le stesse informazioni su DOM sotto forma di stringhe
