@@ -48,6 +48,5 @@ console.log(teamMembers);
 
 for (let key in teamMembers){
     console.log(teamMembers[key]);
-    console.log(key[fullName]);
 }
 //Stampare le stesse informazioni su DOM sotto forma di stringhe
