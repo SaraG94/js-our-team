@@ -9,23 +9,28 @@ const teamMember = {
 //creiamo array con indicazioni fornite
 const teamMembers = [
     teamMember,
-    {  fullName : 'Angela Caroll',
+    {  
+        fullName : 'Angela Caroll',
         businessRole : 'Chief Editor',
         pictureProfile : 'angela-caroll-chief-editor.jpg'
     },
-    {  fullName : 'Walter Gordon',
+    {  
+        fullName : 'Walter Gordon',
         businessRole : 'Office Manager',
         pictureProfile : 'walter-gordon-office-manager.jpg'
     },
-    {  fullName : 'Angela Lopez',
+    {  
+        fullName : 'Angela Lopez',
         businessRole : 'Social Media Manager',
         pictureProfile : 'angela-lopez-social-media-manager.jpg'
     },
-    {  fullName : 'Scott Estrada',
+    {  
+        fullName : 'Scott Estrada',
         businessRole : 'Developer',
         pictureProfile : 'scott-estrada-developer.jpg'
     },
-    {  fullName : 'Barbara Ramos',
+    {  
+        fullName : 'Barbara Ramos',
         businessRole : 'Graphic Designer',
         pictureProfile : 'barbara-ramos-graphic-designer.jpg'
     }
@@ -47,6 +52,12 @@ console.log(teamMembers);
 
 
 for (let key in teamMembers){
-    console.log(teamMembers[key]);
+    console.log(key)
+    let member = teamMembers[key];
+    let fullName = member.fullName;
+    let businessRole = member.businessRole;
+    let pictureProfile = member.pictureProfile;
+
+    console.log(fullName,businessRole,pictureProfile);  
 }
 //Stampare le stesse informazioni su DOM sotto forma di stringhe
