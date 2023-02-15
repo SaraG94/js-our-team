@@ -54,12 +54,13 @@ for (let key in teamMembers){
     //Stampare le stesse informazioni su DOM sotto forma di stringhe
     const cardId = `
     <div class='card'>
+        
+        <div class="card-img">
+            <img src="./img/${pictureProfile}" alt="">
+        </div>
         <div class='card-descrition'>
             <h2 class="name-member">${fullName}</h2>
             <p class="role">${businessRole}</p>
-        </div>
-        <div class="card-img">
-            <img src="./img/${pictureProfile}" alt="">
         </div>
     </div>
     `
