@@ -76,3 +76,11 @@ for (let key in teamMembers){
 //
 //    console.log(fullName,businessRole,pictureProfile);
 //}
+
+//for (let i = 0; i < teamMembers.length; i++){     SOLUZIONE CICLO FOR IN FER CICLARE OGGETTI
+//    let member = teamMembers[i];
+//    for(let key in member){
+//      let value = member[key];
+//      console.log( key, ':', value);
+//    }
+//}
